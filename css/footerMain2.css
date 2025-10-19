@@ -1,0 +1,44 @@
+.form-h4 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 3%;
+}
+
+.footer-button {
+  background-color: #2196F3;
+  color: #ECECEC;
+  font-family: RobotoRegular;
+  padding-left: 28px;
+  padding-right: 68px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  border-radius: 7px;
+  margin-left: 12px;
+  font-weight: 600;
+  position: relative;
+  font-size: 16px;
+  -webkit-animation-name: ButtonPulsing;
+          animation-name: ButtonPulsing;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.svg-footer2 {
+  height: 24px;
+  width: 24px;
+  margin-left: 10px;
+  text-align: center;
+  position: absolute;
+  fill: white;
+  right: 10px;
+  bottom: 10px;
+}
+
+.forme-holder2 {
+  margin-top: 83px;
+}

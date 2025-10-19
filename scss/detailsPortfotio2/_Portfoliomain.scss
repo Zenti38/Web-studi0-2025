@@ -1,0 +1,41 @@
+.PortfolioMain-list {
+  font-family: RobotoRegular;
+  display: flex;
+}
+
+.PortfolioMain-list a {
+  color: #000000;
+}
+
+.PortfolioMain-navigation {
+  margin-bottom: 50px;
+  margin-top: 94px;
+  display: flex;
+  justify-content: center;
+  @media (max-width: 1199px) {
+    margin-bottom: 36px;
+    margin-top: 66px;
+  }
+}
+
+.button-nav {
+  margin-right: 8px;
+  height: 38px;
+  padding: 6px 25px;
+  border-radius: 4px;
+  font-weight: 500;
+  border-width: 0;
+}
+
+.button-nav:focus {
+  @extend %button-focus-placeholder;
+}
+
+.button-nav:focus a {
+  color: white;
+}
+
+.button-nav {
+  background-color: #f5f4fa;
+  @include fonts(400, 16px, RobotoRegular, normal);
+}
