@@ -1,21 +1,21 @@
-@import "./scss/utils/variables";
-@import "./scss/utils/placeholder";
-@import "./scss/utils/mixin";
+@import './scss/utils/variables';
+@import './scss/utils/placeholder';
+@import './scss/utils/mixin';
 
+@import './scss/details/mobile';
+@import './scss/utils/container';
+@import './scss/utils/reset';
+@import './scss/details/header';
+@import './scss/utils/fonts';
+@import './scss/utils/modal';
+@import './scss/details/main';
+@import './scss/details/section1Main';
+@import './scss/details/section2Main';
+@import './scss/details/section3Main';
+@import './scss/details/section4Main';
+@import './scss/details/sectionClients';
+@import './scss/details/footerMain';
 
-@import "./scss/utils/container";
-@import "./scss/utils/reset";
-@import "./scss/details/header";
-@import "./scss/utils/fonts";
-@import "./scss/utils/modal";
-@import "./scss/details/main";
-@import "./scss/details/section1Main";
-@import "./scss/details/section2Main";
-@import "./scss/details/section3Main";
-@import "./scss/details/section4Main";
-@import "./scss/details/sectionClients";
-@import "./scss/details/footerMain";
-
-@import "./scss/detailsPortfotio2/Portfoliomain";
-@import "./scss/detailsPortfotio2/Sectstyle";
-@import "./scss/detailsPortfotio2/footerMain2";
+@import './scss/detailsPortfotio2/Portfoliomain';
+@import './scss/detailsPortfotio2/Sectstyle';
+@import './scss/detailsPortfotio2/footerMain2';

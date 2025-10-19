@@ -6,7 +6,6 @@
     position: relative;
   }
   @media (max-width: 767px) {
-    width: 480px;
   }
 }
 
@@ -139,7 +138,8 @@
   padding-bottom: 30px;
 
   @media (max-width: 767px) {
-    margin-left: 137px;
+    padding-bottom: 0px;
+    width: 100vw;
   }
 }
 .networks-svg1 {
@@ -156,7 +156,7 @@
 
 .forme-holder2 {
   @media (max-width: 1199px) {
-    position: absolute;
+    position: relative;
     top: 200px;
     display: block;
     width: 700px;
@@ -169,7 +169,6 @@
 }
 
 .form-h4 {
-  margin-top: 124px;
   margin-bottom: 20px;
   color: #ececec;
 }

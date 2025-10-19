@@ -5,6 +5,24 @@
   border-radius: 4px;
 }
 
+.mobile {
+  width: 100vw;
+  height: 100vh;
+  background-color: #ffffff;
+  position: absolute;
+  z-index: 40;
+}
+@media (min-width: 768px) {
+  .mobile {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .mobile {
+    display: none;
+  }
+}
+
 .container {
   width: 1270px;
   padding-right: 15px;
@@ -1187,12 +1205,6 @@ body {
     position: relative;
   }
 }
-@media (max-width: 767px) {
-  .footerMain {
-    width: 480px;
-  }
-}
-
 .contacts-footer {
   display: flex;
 }
@@ -1340,7 +1352,8 @@ body {
 }
 @media (max-width: 767px) {
   .networks2 {
-    margin-left: 137px;
+    padding-bottom: 0px;
+    width: 100vw;
   }
 }
 
@@ -1358,7 +1371,7 @@ body {
 
 @media (max-width: 1199px) {
   .forme-holder2 {
-    position: absolute;
+    position: relative;
     top: 200px;
     display: block;
     width: 700px;
@@ -1373,7 +1386,6 @@ body {
 }
 
 .form-h4 {
-  margin-top: 124px;
   margin-bottom: 20px;
   color: #ececec;
 }
