@@ -1205,6 +1205,13 @@ body {
     position: relative;
   }
 }
+@media (max-width: 767px) {
+  .footerMain {
+    position: static;
+    padding-bottom: 0px;
+  }
+}
+
 .contacts-footer {
   display: flex;
 }
@@ -1239,12 +1246,6 @@ body {
     margin-left: 39px;
   }
 }
-@media (max-width: 767px) {
-  .aMain2 {
-    margin-left: 148px;
-  }
-}
-
 #spanf {
   font-size: 26px;
   color: white;
@@ -1266,12 +1267,6 @@ body {
   font-family: RobotoRegular;
   color: white;
 }
-@media (max-width: 767px) {
-  #p {
-    margin-left: 109px;
-  }
-}
-
 .gm {
   margin-top: 9px;
   margin-bottom: 9px;
@@ -1287,12 +1282,6 @@ body {
   color: #757575;
   font-family: RobotoRegular;
 }
-@media (max-width: 767px) {
-  .mailto {
-    margin-left: 109px;
-  }
-}
-
 .Tel2 {
   color: #757575;
   font-family: RobotoRegular;
@@ -1302,14 +1291,13 @@ body {
     margin-left: 37px;
   }
 }
-@media (max-width: 767px) {
-  .Tel2 {
-    margin-left: 144px;
-  }
-}
-
 .join {
   margin-right: 93px;
+}
+@media (max-width: 767px) {
+  .join {
+    margin-right: 0px;
+  }
 }
 
 .fh4 {
@@ -1321,12 +1309,6 @@ body {
   text-transform: uppercase;
   color: white;
 }
-@media (max-width: 767px) {
-  .fh4 {
-    margin-left: 167px;
-  }
-}
-
 .networks-li1 {
   height: 44px;
   width: 44px;
@@ -1353,7 +1335,6 @@ body {
 @media (max-width: 767px) {
   .networks2 {
     padding-bottom: 0px;
-    width: 100vw;
   }
 }
 
@@ -1380,8 +1361,8 @@ body {
 }
 @media (max-width: 767px) {
   .forme-holder2 {
-    width: 465px;
-    margin: left 0px;
+    position: static;
+    width: 480px;
   }
 }
 
@@ -1411,7 +1392,7 @@ body {
 @media (max-width: 767px) {
   .input-footer {
     display: inline-block;
-    width: 450px;
+    width: 480px;
   }
 }
 
@@ -1421,7 +1402,7 @@ body {
 
 @media (max-width: 767px) {
   .holder {
-    width: 460px;
+    width: 480px;
   }
 }
 
